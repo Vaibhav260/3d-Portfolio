@@ -10,22 +10,19 @@ import {
   tailwind,
   trivia,
   git,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   cplus,
   java,
   tensorflow,
-  pytorch,
   openCV,
-  mysql,
-  flutter,
+  mysql,  
   python,
+  apple,
+  herb,
+  plantdet,
+  portfolio,
+  harry,
+  mun,
 } from "../assets";
 
 export const navLinks = [
@@ -36,6 +33,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "project",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -121,83 +122,29 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Application Developer",
+    company_name: "MUNSOC",
+    icon:  mun,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2021 - April 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining mobile applications using Flutter and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+      " ",
+    name: " ",
     designation: "CFO",
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
@@ -223,51 +170,126 @@ const projects = [
         name: "PHP",
         color: "blue-text-gradient",
       },
+      {
+        name: "Vite",
+        color: "text-purple-500",
+      },
     ],
     image: trivia,
     source_code_link: "https://github.com/Vaibhav260/PhpTRivia",
   },
   {
-    name: "Job IT",
+    name: "Plant Disease Detector",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application enabling farmers to identify and diagnose plant diseases using machine learning models like SVM.",
     tags: [
       {
-        name: "react",
+        name: "Flask",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "HTML",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "CSS",
         color: "pink-text-gradient",
       },
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Machine Learning",
+        color: "text-yellow-500",
+      },
+      {
+        name: "OpenCV",
+        color: "text-purple-500",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: plantdet,
+    source_code_link: "https://github.com/Vaibhav260/Plant-disease-dectection",
   },
   {
-    name: "Trip Guide",
+    name: "3d Portfolio Website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Presenting my 3D portfolio website, skillfully crafted with React and enhanced with Tailwind CSS, showcasing dynamic and interactive visuals powered by Three.js.",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "TailwindCSS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "ThreeJs",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: portfolio,
+    source_code_link: "https://github.com/Vaibhav260/3d-Portfolio",
+  },
+  {
+    name: "Fruit Grading System",
+    description:
+      "Innovative fruit grading system revolutionizing the fruit industry. Utilizes Ripeness ratio, canny edge detection, and Hough circles to grade apples with exceptional precision and accuracy",
+    tags: [
+      {
+        name: "Computer Vision",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
+    ],
+    image: apple,
+    source_code_link: "https://github.com/Vaibhav260/Fruit-Grading-system",
+  },
+  {
+    name: "Herb Management System",
+    description:
+      "Created a user-friendlv interface that accepts information from users regarding herb name and opens a inventory to purchase stocks.",
+    tags: [
+      {
+        name: "MySql",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tkinter",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: herb,
+    source_code_link: "https://github.com/Vaibhav260/Fruit-Grading-system",
+  },
+  {
+    name: "Harry potter Cloth of Invisibility",
+    description:
+      "Recreated the magical cloak from Harry Potter using HSV values, allowing users to experience the thrill of going unnoticed and channel their inner wizard.",
+    tags: [
+      {
+        name: "Computer Vision",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "OpenCV",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "pink-text-gradient",
+      },
+    ],
+    image:  harry,
+    source_code_link: "https://github.com/Vaibhav260/Fruit-Grading-system",
   },
 ];
 
