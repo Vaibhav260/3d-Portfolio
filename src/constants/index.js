@@ -232,150 +232,197 @@ const testimonials = [
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
 ];
-
 const projects = [
   {
     name: "Trivia",
     description:
-      "Introducing a web-based platform that offers the latest insights on world innovation and presents little-known facts, engaging users with fascinating trivia and expanding their knowledge.",
+      "Web-based platform offering insights on world innovation and little-known facts, engaging users with fascinating trivia.",
     tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Javascript",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "PHP",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Vite",
-        color: "text-purple-500",
-      },
+      { name: "HTML", color: "blue-text-gradient" },
+      { name: "CSS", color: "green-text-gradient" },
+      { name: "JavaScript", color: "pink-text-gradient" },
+      { name: "PHP", color: "blue-text-gradient" },
+      { name: "Vite", color: "text-purple-500" },
     ],
     image: trivia,
     source_code_link: "https://github.com/Vaibhav260/PhpTRivia",
   },
+
+  // ✅ NEW: HealthSync
+  {
+    name: "HealthSync",
+    description:
+      "Health portal integrating OpenAI for automated medical report analysis, admin dashboard with charts, Tailwind UI, SSR optimization, and Firebase backend. CI/CD via GitHub Actions + Vercel reduced report processing time by ~30%.",
+    tags: [
+      { name: "Next.js", color: "blue-text-gradient" },
+      { name: "Firebase", color: "green-text-gradient" },
+      { name: "OpenAI", color: "pink-text-gradient" },
+      { name: "SSR", color: "text-purple-500" },
+      { name: "CI/CD", color: "text-yellow-500" },
+    ],
+    image: portfolio, // TODO: replace with healthsync screenshot variable later
+    source_code_link: "https://github.com/kamakshyan/health-sync",
+  },
+
+  // ✅ NEW: IoT Analytics
+  {
+    name: "IoT Analytics for Environmental Monitoring",
+    description:
+      "Performed statistical analysis and regression modeling on environmental sensor data. Improved model fit to R² = 0.803 while addressing multicollinearity.",
+    tags: [
+      { name: "Statistics", color: "blue-text-gradient" },
+      { name: "Regression", color: "green-text-gradient" },
+      { name: "IoT", color: "pink-text-gradient" },
+      { name: "Data Science", color: "text-purple-500" },
+    ],
+    image: portfolio, // TODO: replace with iot screenshot variable later
+    source_code_link: "https://github.com/Vaibhav260/IoT-Analytics-for-Environmental-Monitoring",
+  },
+
   {
     name: "Plant Disease Detector",
     description:
       "Web application enabling farmers to identify and diagnose plant diseases using machine learning models like SVM.",
     tags: [
-      {
-        name: "Flask",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "HTML",
-        color: "green-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Python",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Machine Learning",
-        color: "text-yellow-500",
-      },
-      {
-        name: "OpenCV",
-        color: "text-purple-500",
-      },
+      { name: "Flask", color: "blue-text-gradient" },
+      { name: "HTML", color: "green-text-gradient" },
+      { name: "CSS", color: "pink-text-gradient" },
+      { name: "Python", color: "green-text-gradient" },
+      { name: "Machine Learning", color: "text-yellow-500" },
+      { name: "OpenCV", color: "text-purple-500" },
     ],
     image: plantdet,
     source_code_link: "https://github.com/Vaibhav260/Plant-disease-dectection",
   },
+
+  // ✅ NEW: YOLOv8 Plant Disease Detection
   {
-    name: "3d Portfolio Website",
+    name: "Plant Disease Detection (YOLOv8)",
     description:
-      "Presenting my 3D portfolio website, skillfully crafted with React and enhanced with Tailwind CSS, showcasing dynamic and interactive visuals powered by Three.js.",
+      "Built plant disease detection using YOLOv8 and used a custom annotated dataset",
     tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "TailwindCSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "ThreeJs",
-        color: "pink-text-gradient",
-      },
+      { name: "YOLOv8", color: "blue-text-gradient" },
+      { name: "Computer Vision", color: "green-text-gradient" },
+      { name: "Python", color: "pink-text-gradient" },
+      { name: "MLOps", color: "text-purple-500" },
+    ],
+    image: portfolio, // TODO: replace with yolov8 screenshot variable later
+    source_code_link: "https://github.com/Vaibhav260/Plant-disease-dectection", // Have to check again
+  },
+
+  {
+    name: "3D Portfolio Website",
+    description:
+      "Fully responsive 3D portfolio built with React, Vite, Tailwind CSS, and Three.js, featuring interactive animations and optimized performance. CI/CD via GitHub and Netlify.",
+    tags: [
+      { name: "React", color: "blue-text-gradient" },
+      { name: "TailwindCSS", color: "green-text-gradient" },
+      { name: "Three.js", color: "pink-text-gradient" },
+      { name: "CI/CD", color: "text-purple-500" },
     ],
     image: portfolio,
     source_code_link: "https://github.com/Vaibhav260/3d-Portfolio",
   },
+
+  // ✅ NEW: Expertiza
+  {
+    name: "Expertiza Peer-Review Platform",
+    description:
+      "Refactored controller logic for Expertiza (Ruby on Rails). Applied SOLID principles and improved test coverage using RSpec and FactoryBot for scalable maintenance.",
+    tags: [
+      { name: "Ruby on Rails", color: "blue-text-gradient" },
+      { name: "SOLID", color: "green-text-gradient" },
+      { name: "RSpec", color: "pink-text-gradient" },
+      { name: "FactoryBot", color: "text-purple-500" },
+    ],
+    image: portfolio, // TODO: replace with expertiza screenshot variable later
+    source_code_link: "https://github.com/Vaibhav260/expertiza",
+  },
+
+  // ✅ NEW: MusicGen
+  {
+    name: "MusicGen",
+    description:
+      "Built a deep learning music generation pipeline using VAE + GRU/LSTM with Music21 for MIDI processing. Generated original MIDI sequences via latent vector sampling and music theory encoding.",
+    tags: [
+      { name: "Deep Learning", color: "blue-text-gradient" },
+      { name: "VAE", color: "green-text-gradient" },
+      { name: "LSTM/GRU", color: "pink-text-gradient" },
+      { name: "Music21", color: "text-purple-500" },
+      { name: "NLP", color: "text-yellow-500" },
+    ],
+    image: portfolio, // TODO: replace with musicgen screenshot variable later
+    source_code_link: "https://github.com/Vaibhav260",
+  },
+
+  // ✅ NEW: Predictive Maintenance
+  {
+    name: "Predictive Maintenance System",
+    description:
+      "Trained predictive maintenance models on industrial IoT sensor data for failure detection and deployed a Streamlit dashboard with LLM-powered maintenance insights.",
+    tags: [
+      { name: "Python", color: "blue-text-gradient" },
+      { name: "Scikit-learn", color: "green-text-gradient" },
+      { name: "Streamlit", color: "pink-text-gradient" },
+      { name: "LLM", color: "text-purple-500" },
+    ],
+    image: portfolio, // TODO: replace with predictive screenshot variable later
+    source_code_link: "https://github.com/Vaibhav260/predictive-maintenance-ai-groq",
+  },
+
+  // ✅ NEW: PySpark ETL
+  {
+    name: "PySpark ETL Pipeline",
+    description:
+      "Implemented an ETL pipeline using PySpark to extract data from MS SQL Server and load it into AWS S3. Containerized with Docker and automated infra + workflows using Terraform.",
+    tags: [
+      { name: "PySpark", color: "blue-text-gradient" },
+      { name: "AWS S3", color: "green-text-gradient" },
+      { name: "Docker", color: "pink-text-gradient" },
+      { name: "Terraform", color: "text-purple-500" },
+    ],
+    image: portfolio, // TODO: replace with pyspark screenshot variable later
+    source_code_link: "https://github.com/Vaibhav260/AWS-ETl-Pipeline",
+  },
+
   {
     name: "Fruit Grading System",
     description:
-      "Innovative fruit grading system revolutionizing the fruit industry. Utilizes Ripeness ratio, canny edge detection, and Hough circles to grade apples with exceptional precision and accuracy",
+      "Fruit grading system using Ripeness ratio, Canny edge detection, and Hough circles to grade apples with high precision.",
     tags: [
-      {
-        name: "Computer Vision",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Python",
-        color: "green-text-gradient",
-      },
+      { name: "Computer Vision", color: "blue-text-gradient" },
+      { name: "Python", color: "green-text-gradient" },
     ],
     image: apple,
     source_code_link: "https://github.com/Vaibhav260/Fruit-Grading-system",
   },
+
   {
     name: "Herb Management System",
     description:
-      "Created a user-friendlv interface that accepts information from users regarding herb name and opens a inventory to purchase stocks.",
+      "Inventory-style herb management app with a user-friendly UI to manage herb records and purchase stock.",
     tags: [
-      {
-        name: "MySql",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Python",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tkinter",
-        color: "pink-text-gradient",
-      },
+      { name: "MySQL", color: "blue-text-gradient" },
+      { name: "Python", color: "green-text-gradient" },
+      { name: "Tkinter", color: "pink-text-gradient" },
     ],
     image: herb,
-    source_code_link: "https://github.com/Vaibhav260/Fruit-Grading-system",
+    source_code_link: "https://github.com/Vaibhav260/Herb-Management", // (your current link points to Fruit Grading)
   },
+
   {
-    name: "Harry potter Cloth of Invisibility",
+    name: "Harry Potter Cloak of Invisibility",
     description:
-      "Recreated the magical cloak from Harry Potter using HSV values, allowing users to experience the thrill of going unnoticed and channel their inner wizard.",
+      "Recreated the invisibility cloak effect using HSV color masking, letting users experience a real-time 'cloak' illusion with OpenCV.",
     tags: [
-      {
-        name: "Computer Vision",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "OpenCV",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Python",
-        color: "pink-text-gradient",
-      },
+      { name: "Computer Vision", color: "blue-text-gradient" },
+      { name: "OpenCV", color: "green-text-gradient" },
+      { name: "Python", color: "pink-text-gradient" },
     ],
-    image:  harry,
-    source_code_link: "https://github.com/Vaibhav260/Fruit-Grading-system",
+    image: harry,
+    source_code_link: "https://github.com/Vaibhav260/Harry-Potter-s-Cloth-of-invisibilty", // (your current link points to Fruit Grading)
   },
 ];
+
 
 export { services, technologies, experiences, testimonials, projects };
