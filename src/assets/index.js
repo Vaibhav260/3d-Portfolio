@@ -17,7 +17,7 @@ import harry from "./harry.jpg";
 
 // ✅ NEW company / org logos
 import ribbon from "./company/ribbon.png";
-import ncsuLibraries from "./company/ncsuLibraries.png";
+import ncsuLibraries from "./company/ncsuLibraries.jpg";
 import ncsu from "./company/ncsu.png";
 import futureTayari from "./company/futuretayari.png";
 import rotaract from "./company/rotaract.png";
