@@ -145,8 +145,7 @@ const technologies = [
 // src/constants/index.js  (or wherever your experiences live)
 
 
-
-export const experiences = [
+const experiences = [
   {
     title: "Software Engineer Intern",
     company_name: "Ribbon Communications",
