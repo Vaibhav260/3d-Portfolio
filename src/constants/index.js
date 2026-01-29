@@ -144,17 +144,7 @@ const technologies = [
 
 // src/constants/index.js  (or wherever your experiences live)
 
-import {
-  ribbon,
-  ncsuLibraries,
-  ncsu,
-  futureTayari,
-  munsociety,
-  rotaract,
-} from "../assets"; 
-// ^ adjust this import based on how your project exports images
-// Example alternative:
-// import ribbon from "../assets/company/ribbon.png";
+
 
 export const experiences = [
   {
