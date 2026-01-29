@@ -14,7 +14,6 @@ import herb from "./herb.jpeg";
 import plantdet from "./plantdet.png";
 import portfolio from "./portfolio.png";
 import harry from "./harry.jpg";
-import mun from "./mun.png";
 
 // ✅ NEW company / org logos
 import ribbon from "./company/ribbon.png";
