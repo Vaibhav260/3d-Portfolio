@@ -43,12 +43,17 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
-      >
-        As an IT student, I am truly passionate about technology and driven by the desire to apply my skills to solve real-world problems through innovative solutions. Specializing in data structures, web development, machine learning, image processing, and deep learning, my goal is to deliver valuable results that contribute to the company's success while staying updated with emerging technologies through continuous learning.
-      </motion.p>
+    <motion.p
+    variants={fadeIn("", "", 0.1, 1)}
+    className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+    >
+    I’m a Software Engineer and MS Computer Science student at NC State with a 4.0 GPA, focused on building reliable, production-grade systems.
+    <br /><br />
+    I work across real-time communication systems, distributed backend services, and AI-powered applications. My experience includes SIP and WebRTC call processing, low-level TCP/IP networking, and high-performance services built with C/C++, gRPC, and REST.
+    <br /><br />
+    I’ve shipped features in Linux/UNIX environments using Git-based CI/CD pipelines and enjoy owning systems end-to-end — from backend design and debugging to deployment and reliability.
+  </motion.p>
+
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
