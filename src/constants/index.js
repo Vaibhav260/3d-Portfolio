@@ -63,67 +63,58 @@ const services = [
     icon: backend,
   },
   {
-    title: "Machine Learning / LLM Apps",
+    title: "Data Structures and Algorithms",
     icon: creator,
   },
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
- 
-  {
-    name: "C++",
-    icon: cplus,
-  },
-  {
-    name: "java",
-    icon: java,
-  },
-  {
-    name: "tensorflow",
-    icon: tensorflow,
-  },
-  {
-    name: "python",
-    icon: python,
-  },
-  {
-    name: "OpenCV",
-    icon: openCV,
-  },
-  {
-    name: "mysql",
-    icon: mysql,
-  },
-   
+  { name: "C++", icon: cplus },
+  { name: "Python", icon: python },
+  { name: "JavaScript", icon: javascript },
+  { name: "React JS", icon: reactjs },
+  { name: "Tailwind CSS", icon: tailwind },
+  { name: "Three.js", icon: threejs },
+  { name: "Git", icon: git },
+  { name: "MySQL", icon: mysql },
+  { name: "TensorFlow", icon: tensorflow },
+  { name: "OpenCV", icon: openCV },
+  { name: "HTML 5", icon: html },
+  { name: "CSS 3", icon: css },
 ];
+
+const tools = [
+  // Systems / Real-time
+  "Linux/UNIX",
+  "SIP",
+  "WebRTC",
+  "TCP/IP",
+  "Wireshark",
+  "SIPp",
+  "gRPC",
+  "REST APIs",
+
+  // Backend / Cloud
+  "Node.js",
+  "Firebase",
+  "Next.js",
+  "SSR",
+  "CI/CD (GitHub Actions)",
+  "Vercel",
+  "Netlify",
+
+  // Data / ML
+  "PySpark",
+  "Docker",
+  "Terraform",
+  "AWS (S3)",
+
+  // Rails
+  "Ruby on Rails",
+  "RSpec",
+  "FactoryBot",
+];
+
 
 // const experiences = [
 //   {
@@ -425,4 +416,4 @@ const projects = [
 ];
 
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, tools, experiences, testimonials, projects };

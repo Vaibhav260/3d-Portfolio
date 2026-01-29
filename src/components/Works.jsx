@@ -58,14 +58,15 @@ const ProjectCard = ({
         </div>
 
         <div className='mt-4 flex flex-wrap gap-2'>
-          {tags.map((tag) => (
-            <p
-              key={`${name}-${tag.name}`}
-              className={`text-[14px] ${tag.color}`}
-            >
-              #{tag.name}
-            </p>
-          ))}
+          {Array.isArray(tags) &&
+            tags.map((tag) => (
+              <p
+                key={`${name}-${tag.name}`}
+                className={`text-[14px] ${tag.color}`}
+              >
+                #{tag.name}
+              </p>
+            ))}
         </div>
       </Tilt>
     </motion.div>
@@ -73,6 +74,10 @@ const ProjectCard = ({
 };
 
 const Works = () => {
+  const safeProjects = (projects || []).filter(
+    (project) => project && project.image && Array.isArray(project.tags)
+  );
+
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -94,8 +99,12 @@ const Works = () => {
       </div>
 
       <div className='mt-20 flex flex-wrap gap-7'>
-        {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
+        {safeProjects.map((project, index) => (
+          <ProjectCard
+            key={project.name || `project-${index}`}
+            index={index}
+            {...project}
+          />
         ))}
       </div>
     </>
