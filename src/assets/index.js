@@ -20,7 +20,7 @@ import ribbon from "./company/ribbon.png";
 import ncsuLibraries from "./company/ncsuLibraries.jpg";
 import ncsu from "./company/ncsu.png";
 import futureTayari from "./company/futureTayari.png";
-import rotaract from "./company/rotaract.png";
+import rotaract from "./company/rotaract.jpeg";
 import mun from "./company/mun.png";
 
 // tech stack icons
