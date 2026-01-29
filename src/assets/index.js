@@ -6,15 +6,25 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import trivia from "./trivia.png"
-import vaibhav from "./vaibhav.jpeg"
-import apple from "./apple.jpeg"
-import herb from "./herb.jpeg"
-import plantdet from "./plantdet.png"
-import portfolio from "./portfolio.png"
-import harry from "./harry.jpg"
-import mun from "./mun.png"
 
+import trivia from "./trivia.png";
+import vaibhav from "./vaibhav.jpeg";
+import apple from "./apple.jpeg";
+import herb from "./herb.jpeg";
+import plantdet from "./plantdet.png";
+import portfolio from "./portfolio.png";
+import harry from "./harry.jpg";
+import mun from "./mun.png";
+
+// ✅ NEW company / org logos
+import ribbon from "./company/ribbon.png";
+import ncsuLibraries from "./company/ncsu-libraries.png";
+import ncsu from "./company/ncsu.png";
+import futureTayari from "./company/futuretayari.png";
+import rotaract from "./company/rotaract.png";
+import mun from "./company/mun.png";
+
+// tech stack icons
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -36,10 +46,9 @@ import pytorch from "./tech/pytorch.png";
 import tensorflow from "./tech/tensorflow.png";
 import mysql from "./tech/mysql.png";
 
- 
-
 
 export {
+  // base
   logo,
   backend,
   creator,
@@ -48,6 +57,8 @@ export {
   github,
   menu,
   close,
+
+  // tech
   css,
   figma,
   git,
@@ -68,6 +79,8 @@ export {
   mysql,
   flutter,
   python,
+
+  // projects / misc
   trivia,
   vaibhav,
   apple,
@@ -75,5 +88,13 @@ export {
   plantdet,
   portfolio,
   harry,
+  
+
+  // ✅ experiences / orgs
+  ribbon,
+  ncsuLibraries,
+  ncsu,
+  futureTayari,
+  rotaract,
   mun,
 };
