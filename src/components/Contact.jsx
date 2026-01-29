@@ -135,7 +135,7 @@ const Contact = () => {
                    /resume/Resume_AI.pdf
                 */}
                 <a
-                  href="public/resume/Resume_Web_website.pdf"
+                  href="resume/Resume_Web_website.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-[#915EFF] hover:opacity-90 transition px-4 py-2 rounded-lg text-white font-semibold text-sm"
@@ -144,7 +144,7 @@ const Contact = () => {
                 </a>
 
                 <a
-                  href="public/resume/Resume_AI_web.pdf"
+                  href="resume/Resume_AI_web.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-white/5 hover:bg-white/10 transition px-4 py-2 rounded-lg text-white/90 font-semibold text-sm border border-white/15"

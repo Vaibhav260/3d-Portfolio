@@ -243,7 +243,7 @@ const Hero = () => {
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-6 sm:bottom-10 z-[20] w-full flex justify-center">
+      {/* <div className="absolute bottom-6 sm:bottom-10 z-[20] w-full flex justify-center">
         <a href="#about">
           <div className="w-[34px] h-[60px] rounded-3xl border-2 border-white/30 hover:border-white/60 transition flex justify-center items-start p-2 bg-black/10 backdrop-blur">
             <motion.div
@@ -253,7 +253,7 @@ const Hero = () => {
             />
           </div>
         </a>
-      </div>
+      </div> */}
     </section>
   );
 };
