@@ -19,7 +19,7 @@ import harry from "./harry.jpg";
 import ribbon from "./company/ribbon.png";
 import ncsuLibraries from "./company/ncsuLibraries.jpg";
 import ncsu from "./company/ncsu.png";
-import futureTayari from "./company/futuretayari.png";
+import futureTayari from "./company/futureTayari.png";
 import rotaract from "./company/rotaract.png";
 import mun from "./company/mun.png";
 
